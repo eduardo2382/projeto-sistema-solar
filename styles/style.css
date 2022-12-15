@@ -10,81 +10,9 @@
     font-style: normal;
 }
 
-@keyframes rotateMercurio {
+@keyframes rotate {
     0%{
-        transform: translate(-50%, -50%) rotate(90deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotateVenus {
-    0%{
-        transform: translate(-50%, -50%) rotate(23deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotateTerra {
-    0%{
-        transform: translate(-50%, -50%) rotate(172deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotateMarte {
-    0%{
-        transform: translate(-50%, -50%) rotate(280deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotateJupiter {
-    0%{
-        transform: translate(-50%, -50%) rotate(310deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotateSaturno {
-    0%{
-        transform: translate(-50%, -50%) rotate(234deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotateUrano {
-    0%{
-        transform: translate(-50%, -50%) rotate(190deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotateNetuno {
-    0%{
-        transform: translate(-50%, -50%) rotate(150deg);
-    }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-@keyframes rotatePlutao {
-    0%{
-        transform: translate(-50%, -50%) rotate(40deg);
+        transform: translate(-50%, -50%) rotate(0);
     }
     100%{
         transform: translate(-50%, -50%) rotate(360deg);
@@ -135,14 +63,16 @@ main{
     position: relative;
 }   
 
-#descrição{
-    width: 20vw;
-    height: 600px;
+#area_descrição{
+    width: 5vw;
+    height: 400px;
+    margin-top: 100px;
     display: inline-block;
     position: absolute;
+    text-align: left;
 }
 
-li{
+#sistema li{
     display: inline-block;
     list-style: none;
 }
@@ -164,7 +94,7 @@ li{
     box-shadow: 0px 0px 50px #c90;
 }
 
-li{
+#sistema li{
     border: 2px solid #394057;
     position: absolute;
     top: 50%;
@@ -191,85 +121,140 @@ span{
 #mercurio{
     width: 100px;
     height: 100px;
-    animation: rotateMercurio 6s linear infinite;
+    animation: rotate 6s linear infinite;
+    z-index: 99;
+    transform: translate(-50%, -50%) rotate(9deg);
 }
 
 #venus span{
     background-color: #bf8639;
+    top: 19px;
+    left: 130px;
 }
 
 #venus{
     width: 160px;
     height: 160px;
-    animation: rotateVenus 8s linear infinite;
+    animation: rotate 8s linear infinite;
 }
 
 #terra span{
     background-color: #06c;
+    top: 151px;
+    left: 208px;
 }
 
 #terra{
     width: 220px;
     height: 220px;
-    animation: rotateTerra 13s linear infinite;
+    animation: rotate 13s linear infinite;
 }
 
 #marte span{
     background-color: #aa4200;
+    top: 269px;
+    left: 184px;
 }
 
 #marte{
     width: 280px;
     height: 280px;
-    animation: rotateMarte 21s linear infinite;
+    animation: rotate 21s linear infinite;
 }
 
 #jupiter span{
     background-color: #e0ae6f;
+    top: 300px;
+    left: 63px;
 }
 
 #jupiter{
     width: 340px;
     height: 340px;
-    animation: rotateJupiter 27s linear infinite;
+    animation: rotate 27s linear infinite;
 }
 
 #saturno span{
     background-color: #dfd3a9;
+    top: 181px;
+    left: 0px;
 }
 
 #saturno{
     width: 400px;
     height: 400px;
-    animation: rotateSaturno 49s linear infinite;
+    animation: rotate 49s linear infinite;
 }
 
 #urano span{
     background-color: #82b3d1;
+    top: 10px;
+    left: 297px;
 }
 
 #urano{
     width: 460px;
     height: 460px;
-    animation: rotateUrano 70s linear infinite;
+    animation: rotate 70s linear infinite;
 }
 
 #netuno span{
     background-color: #77c2ec;
+    top: 146px;
+    left: 25px;
 }
 
 #netuno{
     width: 520px;
     height: 520px;
-    animation: rotateNetuno 100s linear infinite;
+    animation: rotate 100s linear infinite;
 }
 
 #plutao span{
     background-color: #7c6a5c;
+    top: 69px;
+    left: 100px;
 }
 
 #plutao{
     width: 580px;
     height: 580px;
-    animation: rotatePlutao 120s linear infinite;
+    animation: rotate 120s linear infinite;
+}
+
+#area_descrição li{
+    list-style: none;
+    text-align: left;
+    font-family: 'Proxima Nova Extra Condensed';
+    color: #386077;
+    display: inline-block;
+    font-size: 1em;
+    position: relative;
+    transition: all 0.15s;
+}
+
+#area_descrição h2{
+    cursor: pointer;
+}
+
+#area_descrição h2:hover{
+    color: #aa4200;
+    transform: scale(1.08);
+}
+
+#area_descrição p{
+    position: absolute;
+    width: 260px;
+    font-size: 16px;
+    left: -250px;
+    opacity: 0;
+    top: 0;
+    display: inline;
+    padding: 20px;
+    background-color: #0f132c;
+    border: 1px solid #1c203c;
+    border-radius: 7px;
+    color: #767892;
+    line-height: 1.5;
+    transition: all 0.3s ease-in;
 }
