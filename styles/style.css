@@ -260,7 +260,7 @@ span{
     transition: all 0.3s ease-in;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     #titulo{
         font-size: 6em;
         line-height: 1;
