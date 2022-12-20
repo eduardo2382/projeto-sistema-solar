@@ -268,104 +268,108 @@ span{
     }
 
     main{
-        margin-top: -30px;
+        margin-top: -60px;
         margin-bottom: 0px;
     }
 
+    #sistema{
+        display: block;
+        margin: auto;
+    }
+
     #area_descrição{
-        position: static;
         display: none;
     }
 
     #sol span{
         width: 30px;
         height: 30px;
-        box-shadow: 0px 0px 20px #c90;
+        box-shadow: 0px 0px 15px #c90;
     }
 
     #mercurio{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 
     #venus span{
-        left: 107px;
+        left: 84px;
         top: 61px;
     }
 
     #venus{
-        width: 110px;
-        height: 110px;
+        width: 90px;
+        height: 90px;
     }
 
     #terra span{
-        left: 108px;
-        top: 138px;
+        left: 27px;
+        top: 109px;
     }
 
     #terra{
+        width: 120px;
+        height: 120px;
+    }
+
+    #marte span{
+        left: 1px;
+        top: 58px;
+    }
+
+    #marte{
         width: 150px;
         height: 150px;
     }
 
-    #marte span{
-        left: 16px;
-        top: 148px;
-    }
-
-    #marte{
-        width: 190px;
-        height: 190px;
-    }
-
     #jupiter span{
-        left: 29px;
-        top: 36px;
+        left: 136px;
+        top: 14px;
     }
 
     #jupiter{
-        width: 230px;
-        height: 230px;
+        width: 180px;
+        height: 180px;
     }
 
     #saturno span{
-        left: 223px;
-        top: 34px;
+        left: 203px;
+        top: 131px;
     }
 
     #saturno{
+        width: 210px;
+        height: 210px;
+    }
+
+    #urano span{
+        left: 82px;
+        top: 5px;
+    }
+
+    #urano{
+        width: 240px;
+        height: 240px;
+    }
+
+    #netuno span{
+        left: 124px;
+        top: 267px;
+    }
+
+    #netuno{
         width: 270px;
         height: 270px;
     }
 
-    #urano span{
-        left: 295px;
-        top: 215px;
-    }
-
-    #urano{
-        width: 310px;
-        height: 310px;
-    }
-
-    #netuno span{
-        left: 129px;
-        top: 342px;
-    }
-
-    #netuno{
-        width: 350px;
-        height: 350px;
-    }
-
     #plutao span{
-        left: 44px;
+        left: 22px;
         top: 70px;
     }
 
     #plutao{
-        width: 390px;
-        height: 390px;
+        width: 300px;
+        height: 300px;
     }
     
 }
