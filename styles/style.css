@@ -284,92 +284,92 @@ span{
     #sol span{
         width: 30px;
         height: 30px;
-        box-shadow: 0px 0px 15px #c90;
+        box-shadow: 0px 0px 20px #c90;
     }
 
     #mercurio{
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     #venus span{
-        left: 84px;
+        left: 80px;
         top: 61px;
     }
 
     #venus{
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
     }
 
     #terra span{
         left: 27px;
-        top: 109px;
+        top: 98px;
     }
 
     #terra{
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
     }
 
     #marte span{
-        left: 1px;
-        top: 58px;
+        left: 23px;
+        top: 46px;
     }
 
     #marte{
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
     }
 
     #jupiter span{
         left: 136px;
-        top: 14px;
+        top: 27px;
     }
 
     #jupiter{
-        width: 180px;
-        height: 180px;
+        width: 190px;
+        height: 190px;
     }
 
     #saturno span{
-        left: 203px;
-        top: 131px;
+        left: 176px;
+        top: 174px;
     }
 
     #saturno{
-        width: 210px;
-        height: 210px;
+        width: 220px;
+        height: 220px;
     }
 
     #urano span{
         left: 82px;
-        top: 5px;
+        top: 7px;
     }
 
     #urano{
-        width: 240px;
-        height: 240px;
+        width: 250px;
+        height: 250px;
     }
 
     #netuno span{
-        left: 124px;
-        top: 267px;
+        left: 64px;
+        top: 257px;
     }
 
     #netuno{
-        width: 270px;
-        height: 270px;
+        width: 280px;
+        height: 280px;
     }
 
     #plutao span{
-        left: 22px;
+        left: 23px;
         top: 70px;
     }
 
     #plutao{
-        width: 300px;
-        height: 300px;
+        width: 310px;
+        height: 310px;
     }
     
 }
