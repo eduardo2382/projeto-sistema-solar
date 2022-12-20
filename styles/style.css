@@ -93,7 +93,7 @@ main{
     height: 40px;
     display: inline-block;
     background: #fc3;
-    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.22, rgb(204,153,0)), color-stop(1, rgb(255,219,112)) );
+    background-image: linear-gradient(to top, rgb(204,153,0) rgb(255,219,112));
     color: none;
     border-radius: 60px;
     text-indent: -9999px;
