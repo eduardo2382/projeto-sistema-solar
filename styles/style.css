@@ -19,6 +19,16 @@
     }
 }
 
+/* Typical Media Breakpoints
+--------------------------------
+Pequenas Telas: ate 600px
+Celular: 600px ate 768px
+Tablet: 768px ate 992px
+Desktop: 992px ate 1200px
+Grandes Telas: acima de 1200px 
+--------------------------------
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +57,7 @@ header{
     font-family: Helvetica, sans-serif;
     text-align: center;
     font-size: 2em;
-    margin-top: -20px;
+    
 }
 
 main{
@@ -257,4 +267,13 @@ span{
     color: #767892;
     line-height: 1.5;
     transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px){
+    #titulo{
+        font-size: 6em;
+        line-height: 90px;
+        margin-top: 20px;
+    }
+    
 }
